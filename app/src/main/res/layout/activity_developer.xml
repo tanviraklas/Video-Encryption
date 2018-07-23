@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".DeveloperActivity">
+
+<ImageView
+    android:id="@+id/dev_pic"
+    android:src="@drawable/rakib"
+    android:layout_width="wrap_content"
+    android:layout_height="350dp"
+    android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:id="@+id/dev_name"
+        android:text="Md. Rokibul Islam"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dev_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Fb: facebook.com/md.rokibulislam.319"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/dev_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: mdrokibulislam25@gmail.com "
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

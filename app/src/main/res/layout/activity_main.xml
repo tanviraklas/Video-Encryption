@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_back"
+    tools:context="com.developer.onair.encrypdecryp.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/selectedPath"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/openPicker"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Get Video"
+            android:background="#fff"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/encrypt_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Encrypt"
+            android:background="#fff"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="Encryption Successfull"
+        android:textColor="#4FC3F7"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp"
+        android:visibility="invisible"/>
+
+
+
+</LinearLayout>
